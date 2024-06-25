@@ -18,7 +18,10 @@ import NewFormPost from "./feature/community/NewFormPost.jsx";
 import { ChakraProvider } from "@chakra-ui/react";
 import theme from "./theme.jsx";
 import CodingEditor from "./feature/coding/CodingEditor.jsx";
+import { disableReactDevTools } from "@fvilers/disable-react-devtools";
 import "bootstrap/dist/css/bootstrap.min.css";
+
+if (process.env.NODE_ENV === "production") disableReactDevTools();
 
 const router = createBrowserRouter([
   {
