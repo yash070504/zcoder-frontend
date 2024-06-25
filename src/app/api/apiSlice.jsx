@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: "https://zcoderbackend-api.onrender.com",
+  baseUrl: "https://zcoderbackendyash-api.onrender.com",
   credentials: "include",
   prepareHeaders: (header, { getState }) => {
     const token = getState().auth.token;
