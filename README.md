@@ -3,7 +3,7 @@
 ZCoder is a platform for developers to create and manage their coding profiles, track competitive programming ratings, save and share coding problems, and stay updated with upcoming coding contests. Users can save their favorite coding problems, mark them as public or private, and engage with the community by commenting on public problems.
 
 ## Live Hosted Link
-Check out ZCoder live at: https://zcoder-client.vercel.app/
+Check out ZCoder live at: https://zcoder-client.vercel.app/](https://zcoder-frontend.vercel.app/
 
 ## Features
 
@@ -33,7 +33,7 @@ ZCoder allows users to:
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/MANSI-0607/zcoder_.git
+   git clone https://github.com/yash070504/zcoder-frontend.git
    cd zcoder
 2. Install the dependencies:
    ```sh
@@ -41,7 +41,7 @@ ZCoder allows users to:
 3. Start the development server:
     ```sh
     //To start the frontend:
-    cd zcoder
+    cd zcoder-frontend
     npm start
     //To start the backend :open a new terminal
     cd server
