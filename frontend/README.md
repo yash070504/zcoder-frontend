@@ -1,8 +1,49 @@
-# React + Vite
+[# ZCoder
+# Welcome
+ZCoder is a platform for developers to create and manage their coding profiles, track competitive programming ratings, save and share coding problems, and stay updated with upcoming coding contests. Users can save their favorite coding problems, mark them as public or private, and engage with the community by commenting on public problems.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Hosted Link[
+Check out ZCoder live at: https://zcoder-frontend-11hv-gyvo00kho-yash-kumars-projects-01acef68.vercel.app/
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ZCoder allows users to:
+- Create profiles to save personal information like tech stack and competitive programming ratings.
+- Save coding problems with question statements and answers, with the option to mark them as public or private.
+- View and comment on public coding problems shared by other users.
+- Track and display a contest calendar for future coding contests.
+- Access a feed displaying top public coding problems from the community.
+
+## Tech Stack
+
+- *Frontend:* React
+- *Backend:* Node.js, Express.js
+- *Database:* MongoDB 
+- *Styling:* CSS
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm (Node Package Manager)
+
+### Installation
+
+1. Clone the repository:
+
+   sh
+   git clone https://github.com/yash070504/zcoder-frontend.git
+   cd zcoder
+2. Install the dependencies:
+   sh
+   npm install
+3. Start the development server:
+    ```sh
+    //To start the frontend:
+    cd zcoder-frontend
+    npm start
+    //To start the backend :open a new terminal
+    cd server
+    npm start
+](https://github.com/yash070504/zcoder-frontend/blob/main/README.md)
