@@ -1,7 +1,9 @@
 # Zcoder
 
 Welcome to **Zcoder**!  
-This repository is a project by [@yash070504](https://github.com/yash070504).
+This repository is a project by
+[@yash070504](https://github.com/yash070504).
+[@yashgupta0410](https://github.com/yashgupta0410).
 
 ---
 
