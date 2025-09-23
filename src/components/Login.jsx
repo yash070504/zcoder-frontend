@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 import { setCredentials } from "../feature/auth/authSlice";
 import { useLoginMutation } from "../feature/auth/authApiSlice";
-
+import "../styles/LoginCrazyDesign.css";
 const Login = () => {
   const userRef = useRef();
   const errRef = useRef();
@@ -101,16 +101,12 @@ const Login = () => {
             Sign In
           </button>
 
-          <Link className="btn btn-danger" style={{ fontSize: "20px" }} to="/">
+          {/* <Link className="btn btn-danger" style={{ fontSize: "20px" }} to="/">
             Home
-          </Link>
+          </Link> */}
 
-          <Link
-            className="btn btn-danger"
-            style={{ fontSize: "20px" }}
-            to="/create"
-          >
-            New User
+          <Link className="btn btn-create-account" to="/create">
+            Create Account
           </Link>
 
           <label className="form__uo">
