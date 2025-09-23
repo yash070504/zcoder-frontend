@@ -4,6 +4,7 @@ import { FaFacebook } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
 import "./Intro.css";
 import { FaInstagram } from "react-icons/fa6";
+import "../styles/Intro.css";
 function Intro() {
   const navigate = useNavigate();
 
@@ -27,8 +28,8 @@ function Intro() {
         <div className="hero-image">
           <div style={{ height: "50%" }}>
             <img
-              src="https://static.vecteezy.com/system/resources/previews/002/178/149/original/developer-working-on-code-free-vector.jpg"
-              alt="Coding Hero Image"
+              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80"
+              alt="Developer at work"
             />
           </div>
         </div>
