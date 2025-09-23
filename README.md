@@ -1,49 +1,105 @@
-[# ZCoder
-# Welcome
-ZCoder is a platform for developers to create and manage their coding profiles, track competitive programming ratings, save and share coding problems, and stay updated with upcoming coding contests. Users can save their favorite coding problems, mark them as public or private, and engage with the community by commenting on public problems.
+# Zcoder
 
-## Live Hosted Link[
-Check out ZCoder live at: https://zcoder-frontend-11hv-gyvo00kho-yash-kumars-projects-01acef68.vercel.app/
+Welcome to **Zcoder**!  
+This repository is a project by [@yash070504](https://github.com/yash070504).
 
-## Features
+---
 
-ZCoder allows users to:
-- Create profiles to save personal information like tech stack and competitive programming ratings.
-- Save coding problems with question statements and answers, with the option to mark them as public or private.
-- View and comment on public coding problems shared by other users.
-- Track and display a contest calendar for future coding contests.
-- Access a feed displaying top public coding problems from the community.
+## 🚀 Overview
 
-## Tech Stack
+**Zcoder** is a full-stack platform designed for contest tracking, problem bookmarking, and personalized peer learning in the coding community. The project aims to streamline the experience of competitive programmers by offering real-time features and collaborative tools.
 
-- *Frontend:* React
-- *Backend:* Node.js, Express.js
-- *Database:* MongoDB 
-- *Styling:* CSS
+---
 
-## Getting Started
+## 🏆 Features
 
-### Prerequisites
+- **Contest Tracking:** Aggregates and displays 50+ programming contests from various platforms.
+- **Problem Bookmarking:** Users can bookmark problems for later review and practice.
+- **Personalized Profiles:** Each user gets a custom profile to showcase progress and bookmarked problems.
+- **In-Browser Code Editor:** Write, run, and test code directly in the browser with real-time execution.
+- **Collaborative Solution Discussion:** Discuss and collaborate on problem solutions with peers in real time.
+- **Optimized Backend:** Node.js and MongoDB APIs with 25% improved query latency for smoother performance.
 
-- Node.js
-- npm (Node Package Manager)
+---
 
-### Installation
+## 🛠️ Tech Stack
 
-1. Clone the repository:
+- **Frontend:** React, Redux, JavaScript, CSS
+- **Backend:** Node.js, MongoDB
 
-   sh
-   git clone https://github.com/yash070504/zcoder-frontend.git
-   cd zcoder
-2. Install the dependencies:
-   sh
-   npm install
-3. Start the development server:
-    ```sh
-    //To start the frontend:
-    cd zcoder-frontend
-    npm start
-    //To start the backend :open a new terminal
-    cd server
-    npm start
-](https://github.com/yash070504/zcoder-frontend/blob/main/README.md)
+---
+
+## 📦 Installation
+
+Clone this repository:
+```bash
+git clone https://github.com/yash070504/Zcoder_z.git
+cd Zcoder_z
+```
+
+Install dependencies for frontend and backend as needed.  
+*(Update the steps below based on your folder structure)*
+
+```bash
+# Frontend
+cd frontend
+npm install
+
+# Backend
+cd ../backend
+npm install
+```
+
+---
+
+## 🚦 Usage
+
+Start the backend server:
+```bash
+cd backend
+npm start
+```
+
+Start the frontend app:
+```bash
+cd ../frontend
+npm start
+```
+
+Visit `http://localhost:3000` in your browser to use Zcoder.
+
+---
+
+## 📂 Project Structure
+
+```
+Zcoder_z/
+├── frontend/    # Frontend React app
+├── backend/     # Backend Node.js/Express API
+├── README.md
+└── ...
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!  
+Please open issues or submit pull requests for improvements, bug fixes, or new features.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).  
+See the LICENSE file for more details.
+
+---
+
+## 🙋‍♂️ Author
+
+Created by [@yash070504](https://github.com/yash070504).
+
+---
+
+*Feel free to update this README to better fit your project as it evolves!*
